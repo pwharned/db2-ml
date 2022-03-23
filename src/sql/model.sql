@@ -1,0 +1,1 @@
+create table models(id integer not null generated always as identity, name varchar(30), model clob, primary key(id))
